@@ -1,6 +1,7 @@
 # The officially supported versions of the following packages are their
 # python3-* equivalent distributed in Ubuntu 22.04 and Debian 11
 Babel==2.9.1  # min version = 2.6.0 (Focal with security backports)
+cffi==1.15.1 # Otherwise will try to install version 1.16.0 on ubuntu 22
 chardet==4.0.0
 cryptography==3.4.8
 decorator==4.4.2
